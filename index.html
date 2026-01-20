@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuvae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="site.html"><img src="img/logo.png" alt="website logo" style="width: 100px;"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="site.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+               <a href="cart.html"><img src="img/cart.webp" alt="cart icon" width="30px" height="25px"></a>
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br>A New Style!</h1>
+                    <p>Looking good isn't always about expensive outfits. It's about new looking, new brands,<br>unique outfits and affordable one. let us wear Greatness collections in cheap plice.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="img/1.webp" alt="image1">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- featured categories -->
+     <section class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/2.webp" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/3.webp" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/4.webp" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- featured products --> 
+     <div class="small-container">
+        <h2 class="title">Featured Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetails.html"><img src="img/tshirt.jpg" alt=""></a>
+                <a href="productdetails.html"><h4>T-Shirt</h4></a>
+    
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/jeans.jpg" alt="">
+                <h4>Jeans</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/girls.webp" alt="">
+                <h4>Wide leg Pants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shoe.webp" alt="">
+                <h4>Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/sandals.jpg" alt="">
+                <h4>Leather Sandals</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shots.jpg" alt="">
+                <h4>Shots Jeans</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shoe1.jpg" alt="">
+                <h4>Jordan Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/chambuu.webp" alt="">
+                <h4>T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/gaun.webp" alt="">
+                <h4>ceremonial dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/form6.webp" alt="">
+                <h4>Gents T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/cm.webp" alt="">
+                <h4>Men T-shirt </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/dress.webp" alt="">
+                <h4>Gf Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$%0.00</p>
+            </div>
+        </div>
+     </div>
+    
+     <!--  offer -->
+
+     <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/band.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Tuvae</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger(than Mi Band 3)AMOLEDcolor full-touch disp;ay with adjustable brightness,so everything is clear as can be</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!--  Testimonial -->
+    <div class="testimonial">
+        <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>The shopping through your online store was very convenient and simple, The quality of dresses are amazing, soft and comfortable! Whell-made and drape nicely. They won't cling to your body or restrict movement like cheaper. Thankyou!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="img/1.png" alt="">
+                <h3>Queen Babrah</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>The shopping through your online store was very convenient and simple, The quality of dresses are amazing, soft and comfortable! Whell-made and drape nicely. They won't cling to your body or restrict movement like cheaper. Thankyou!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="img/john.jpg" alt="">
+                <h3>John Mufasa</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>The shopping through your online store was very convenient and simple, The quality of dresses are amazing, soft and comfortable! Whell-made and drape nicely. They won't cling to your body or restrict movement like cheaper. Thankyou!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="img/chambuu.webp" alt="">
+                <h3>Queen Babrah</h3>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <!-- Brands -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phones</p>
+                    <div class="app-logo">
+                        <img src="img/play.jpg" alt="">
+                        <img src="img/app.jpg" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo.png" alt="">
+                    <p>Our Purpose is to Sistainably make the pleasure and Benefits of Outfits Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2026 - Tuvae Tanzania</p>
+        </div>
+    </footer>
+</body>
+
+<script src="function.js"></script>
+</html>
